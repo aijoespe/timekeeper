@@ -623,11 +623,6 @@ function LoginScreen({ employees, onLogin }) {
             {error && <div className="text-sm text-red-600 font-medium mb-3 flex items-center gap-1.5"><AlertTriangle size={14} />{error}</div>}
             <Btn type="submit" variant="accent" size="lg" className="w-full mt-2">Sign in <LogIn size={16} /></Btn>
           </form>
-          <div className="mt-6 pt-5 border-t border-slate-100 text-xs text-slate-400 space-y-1">
-            <div className="font-semibold text-slate-500">Demo accounts</div>
-            <div>Admin — <span className="font-mono">admin / admin123</span></div>
-            <div>Employee — <span className="font-mono">marco / employee123</span></div>
-          </div>
         </div>
       </div>
     </div>
